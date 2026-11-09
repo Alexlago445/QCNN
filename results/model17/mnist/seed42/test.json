@@ -1,0 +1,73 @@
+{
+  "model": "model17",
+  "dataset": "mnist",
+  "original_labels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "class_names": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "source": "https://docs.pytorch.org/vision/stable/generated/torchvision.datasets.MNIST.html",
+  "native_image_size": 28,
+  "n_channels": 1,
+  "normalization": "pixel / 255",
+  "split_protocol": "official train/test; disjoint balanced train/validation",
+  "architecture": "benchmark_hur8_reupload",
+  "seed": 42,
+  "n_params": 504,
+  "n_epochs_trained": 35,
+  "best_epoch": 29,
+  "best_val_loss": 0.5252282828092575,
+  "val_acc_best": 0.8404999997615814,
+  "val_acc_final": 0.8404999990463257,
+  "train_acc_final": 0.8465625,
+  "test_loss": 0.4928414081335068,
+  "test_acc": 0.86,
+  "test_size": 2000,
+  "confusion_matrix": [
+    [
+      444,
+      16,
+      3,
+      37
+    ],
+    [
+      0,
+      471,
+      29,
+      0
+    ],
+    [
+      5,
+      45,
+      422,
+      28
+    ],
+    [
+      66,
+      14,
+      37,
+      383
+    ]
+  ],
+  "logical_resources": {
+    "independent_trainable_parameters": 504,
+    "encoding_parameters": 480,
+    "convolution_parameters": 20,
+    "pool_parameters": 4,
+    "convolution_applications_total": 10,
+    "pool_applications": 6,
+    "logical_2q_convolution": 10,
+    "logical_2q_pooling": 12,
+    "logical_2q_encoding": 4,
+    "logical_2q_encoding_note": "4 CZ gates between the two re-upload layers",
+    "logical_2q_total_known": 26
+  },
+  "auto_resume": true
+}

@@ -1,0 +1,33 @@
+{
+  "model": "model17",
+  "dataset": "mnist",
+  "original_labels": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "class_names": [
+    "0",
+    "1",
+    "2",
+    "3"
+  ],
+  "source": "https://docs.pytorch.org/vision/stable/generated/torchvision.datasets.MNIST.html",
+  "native_image_size": 28,
+  "n_channels": 1,
+  "normalization": "pixel / 255",
+  "split_protocol": "official train/test; disjoint balanced train/validation",
+  "seeds": [
+    11,
+    42,
+    59
+  ],
+  "test_accuracies": [
+    0.844,
+    0.86,
+    0.8464999997615814
+  ],
+  "mean_test_accuracy": 0.8501666665871938,
+  "elapsed_seconds": 0.8817319869995117
+}

@@ -1,0 +1,73 @@
+{
+  "model": "model17",
+  "dataset": "organamnist",
+  "original_labels": [
+    4,
+    7,
+    9,
+    6
+  ],
+  "class_names": [
+    "Rene sinistro",
+    "Polmone Sinistro",
+    "Pancreas",
+    "Fegato"
+  ],
+  "source": "https://medmnist.com/",
+  "native_image_size": 28,
+  "n_channels": 1,
+  "normalization": "pixel / 255",
+  "split_protocol": "official train/val/test; balanced sampling within each split",
+  "architecture": "benchmark_hur8_reupload",
+  "seed": 11,
+  "n_params": 504,
+  "n_epochs_trained": 35,
+  "best_epoch": 35,
+  "best_val_loss": 0.8570756046772003,
+  "val_acc_best": 0.7235000001192093,
+  "val_acc_final": 0.7235000001192093,
+  "train_acc_final": 0.6937499997764826,
+  "test_loss": 0.993651183128357,
+  "test_acc": 0.6035000028610229,
+  "test_size": 2000,
+  "confusion_matrix": [
+    [
+      313,
+      34,
+      111,
+      42
+    ],
+    [
+      71,
+      375,
+      4,
+      50
+    ],
+    [
+      177,
+      4,
+      243,
+      76
+    ],
+    [
+      84,
+      2,
+      138,
+      276
+    ]
+  ],
+  "logical_resources": {
+    "independent_trainable_parameters": 504,
+    "encoding_parameters": 480,
+    "convolution_parameters": 20,
+    "pool_parameters": 4,
+    "convolution_applications_total": 10,
+    "pool_applications": 6,
+    "logical_2q_convolution": 10,
+    "logical_2q_pooling": 12,
+    "logical_2q_encoding": 4,
+    "logical_2q_encoding_note": "4 CZ gates between the two re-upload layers",
+    "logical_2q_total_known": 26
+  },
+  "auto_resume": true
+}

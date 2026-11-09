@@ -1,0 +1,28 @@
+{
+  "model": "model8",
+  "dataset": "fashion4_2",
+  "original_labels": [
+    2,
+    5,
+    1,
+    4
+  ],
+  "class_names": [
+    "Pullover",
+    "Sandal",
+    "Trouser",
+    "Coat"
+  ],
+  "seeds": [
+    11,
+    42,
+    59
+  ],
+  "test_accuracies": [
+    0.8396428598676409,
+    0.8435714277199337,
+    0.8421428564616612
+  ],
+  "mean_test_accuracy": 0.8417857146830786,
+  "elapsed_seconds": 16550.023826360703
+}

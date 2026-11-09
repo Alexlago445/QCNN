@@ -1,0 +1,28 @@
+{
+  "model": "model21",
+  "dataset": "fashion4_3",
+  "original_labels": [
+    3,
+    9,
+    6,
+    8
+  ],
+  "class_names": [
+    "Dress",
+    "Ankle boot",
+    "Shirt",
+    "Bag"
+  ],
+  "seeds": [
+    11,
+    42,
+    59
+  ],
+  "test_accuracies": [
+    0.7907142836706978,
+    0.7946428581646511,
+    0.8146428568022591
+  ],
+  "mean_test_accuracy": 0.7999999995458693,
+  "elapsed_seconds": 6686.744752645493
+}

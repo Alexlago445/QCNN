@@ -1,0 +1,68 @@
+{
+  "model": "model14",
+  "dataset": "fashion4_1",
+  "original_labels": [
+    0,
+    1,
+    7,
+    8
+  ],
+  "class_names": [
+    "T-shirt",
+    "Trouser",
+    "Sneaker",
+    "Bag"
+  ],
+  "architecture": "benchmark_hur6_reupload",
+  "seed": 42,
+  "n_params": 496,
+  "n_epochs_trained": 20,
+  "best_epoch": 17,
+  "best_val_loss": 0.37211258211306164,
+  "val_acc_best": 0.9210714255060468,
+  "val_acc_final": 0.9235714261872427,
+  "train_acc_final": 0.9307499979436398,
+  "test_loss": 0.3753756984216826,
+  "test_acc": 0.9146428583349501,
+  "test_size": 2800,
+  "confusion_matrix": [
+    [
+      622,
+      40,
+      24,
+      14
+    ],
+    [
+      28,
+      666,
+      1,
+      5
+    ],
+    [
+      0,
+      0,
+      680,
+      20
+    ],
+    [
+      9,
+      27,
+      71,
+      593
+    ]
+  ],
+  "logical_resources": {
+    "independent_trainable_parameters": 496,
+    "encoding_parameters": 480,
+    "convolution_parameters": 12,
+    "pool_parameters": 4,
+    "convolution_applications_total": 10,
+    "pool_applications": 6,
+    "logical_2q_convolution": 20,
+    "logical_2q_pooling": 12,
+    "logical_2q_encoding": 4,
+    "logical_2q_encoding_note": "4 CZ gates between the two re-upload layers",
+    "logical_2q_total_known": 36
+  },
+  "auto_resume": true
+}

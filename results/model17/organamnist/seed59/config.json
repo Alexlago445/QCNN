@@ -1,0 +1,38 @@
+{
+  "model": "model17",
+  "dataset": "organamnist",
+  "original_labels": [
+    4,
+    7,
+    9,
+    6
+  ],
+  "class_names": [
+    "Rene sinistro",
+    "Polmone Sinistro",
+    "Pancreas",
+    "Fegato"
+  ],
+  "source": "https://medmnist.com/",
+  "native_image_size": 28,
+  "n_channels": 1,
+  "normalization": "pixel / 255",
+  "split_protocol": "official train/val/test; balanced sampling within each split",
+  "seed": 59,
+  "train_per_class": 2400,
+  "val_per_class": 500,
+  "test_per_class": 500,
+  "batch_size": 24,
+  "epochs": 35,
+  "lr_qkernel": 0.001,
+  "lr_embed": 0.001,
+  "weight_decay_qkernel": 0.0,
+  "weight_decay_embed": 0.0,
+  "label_smoothing": 0.1,
+  "gradient_clip_norm": 1.0,
+  "early_stop_patience": 10,
+  "early_stop_min_acc_delta": 0.005,
+  "encoding": "reupload",
+  "topology": "benchmark",
+  "ansatz": "hur8"
+}

@@ -1,0 +1,68 @@
+{
+  "model": "model6",
+  "dataset": "fashion4_3",
+  "original_labels": [
+    3,
+    9,
+    6,
+    8
+  ],
+  "class_names": [
+    "Dress",
+    "Ankle boot",
+    "Shirt",
+    "Bag"
+  ],
+  "architecture": "spatial_diag_hur6_e1",
+  "seed": 42,
+  "n_params": 32,
+  "n_epochs_trained": 17,
+  "best_epoch": 7,
+  "best_val_loss": 0.7697188518728528,
+  "val_acc_best": 0.8064285721097674,
+  "val_acc_final": 0.8032142858845847,
+  "train_acc_final": 0.8082499997913838,
+  "test_loss": 0.7567112622942244,
+  "test_acc": 0.800357140813555,
+  "test_size": 2800,
+  "confusion_matrix": [
+    [
+      632,
+      4,
+      64,
+      0
+    ],
+    [
+      10,
+      689,
+      0,
+      1
+    ],
+    [
+      110,
+      20,
+      483,
+      87
+    ],
+    [
+      39,
+      138,
+      86,
+      437
+    ]
+  ],
+  "logical_resources": {
+    "independent_trainable_parameters": 32,
+    "encoding_parameters": 16,
+    "convolution_parameters": 12,
+    "pool_parameters": 4,
+    "convolution_applications_total": 14,
+    "pool_applications": 6,
+    "logical_2q_convolution": 28,
+    "logical_2q_pooling": 12,
+    "logical_2q_encoding": 16,
+    "logical_2q_encoding_note": "16 CNOT gates in the ancilla fusion stage",
+    "logical_2q_total_known": 56
+  },
+  "auto_resume": true
+}

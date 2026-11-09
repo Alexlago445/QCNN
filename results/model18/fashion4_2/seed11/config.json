@@ -1,0 +1,33 @@
+{
+  "model": "model18",
+  "dataset": "fashion4_2",
+  "original_labels": [
+    2,
+    5,
+    1,
+    4
+  ],
+  "class_names": [
+    "Pullover",
+    "Sandal",
+    "Trouser",
+    "Coat"
+  ],
+  "seed": 11,
+  "train_per_class": 4000,
+  "val_per_class": 700,
+  "test_per_class": 700,
+  "batch_size": 24,
+  "epochs": 20,
+  "lr_qkernel": 0.001,
+  "lr_embed": 0.001,
+  "weight_decay_qkernel": 0.0,
+  "weight_decay_embed": 0.0,
+  "label_smoothing": 0.1,
+  "gradient_clip_norm": 1.0,
+  "early_stop_patience": 10,
+  "early_stop_min_acc_delta": 0.005,
+  "encoding": "e1",
+  "topology": "benchmark",
+  "ansatz": "hur8"
+}

@@ -1,0 +1,68 @@
+{
+  "model": "model28",
+  "dataset": "fashion4_1",
+  "original_labels": [
+    0,
+    1,
+    7,
+    8
+  ],
+  "class_names": [
+    "T-shirt",
+    "Trouser",
+    "Sneaker",
+    "Bag"
+  ],
+  "architecture": "benchmark_custom_e3",
+  "seed": 11,
+  "n_params": 28,
+  "n_epochs_trained": 20,
+  "best_epoch": 20,
+  "best_val_loss": 0.8739889333929335,
+  "val_acc_best": 0.7964285722800664,
+  "val_acc_final": 0.7964285722800664,
+  "train_acc_final": 0.787875000178814,
+  "test_loss": 0.8742925987924848,
+  "test_acc": 0.7832142850330898,
+  "test_size": 2800,
+  "confusion_matrix": [
+    [
+      669,
+      23,
+      4,
+      4
+    ],
+    [
+      55,
+      645,
+      0,
+      0
+    ],
+    [
+      2,
+      0,
+      693,
+      5
+    ],
+    [
+      347,
+      4,
+      163,
+      186
+    ]
+  ],
+  "logical_resources": {
+    "independent_trainable_parameters": 28,
+    "encoding_parameters": 0,
+    "convolution_parameters": 22,
+    "pool_parameters": 6,
+    "convolution_applications_total": 10,
+    "pool_applications": 6,
+    "logical_2q_convolution": 30,
+    "logical_2q_pooling": 18,
+    "logical_2q_encoding": null,
+    "logical_2q_encoding_note": "AmplitudeEmbedding decomposition is backend/transpiler dependent",
+    "logical_2q_total_known": null
+  },
+  "auto_resume": true
+}

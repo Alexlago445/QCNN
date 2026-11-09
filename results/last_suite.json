@@ -1,0 +1,54 @@
+{
+  "models": [
+    "model22"
+  ],
+  "dataset": "fashion4_1",
+  "original_labels": [
+    0,
+    1,
+    7,
+    8
+  ],
+  "class_names": [
+    "T-shirt",
+    "Trouser",
+    "Sneaker",
+    "Bag"
+  ],
+  "seeds": [
+    11,
+    42,
+    59
+  ],
+  "elapsed_seconds": 0.00539708137512207,
+  "summaries": [
+    {
+      "model": "model22",
+      "dataset": "fashion4_1",
+      "original_labels": [
+        0,
+        1,
+        7,
+        8
+      ],
+      "class_names": [
+        "T-shirt",
+        "Trouser",
+        "Sneaker",
+        "Bag"
+      ],
+      "seeds": [
+        11,
+        42,
+        59
+      ],
+      "test_accuracies": [
+        0.8996428579943521,
+        0.8975000013623918,
+        0.8989285710879734
+      ],
+      "mean_test_accuracy": 0.8986904768149059,
+      "elapsed_seconds": 0.002007007598876953
+    }
+  ]
+}
